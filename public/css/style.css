@@ -5,7 +5,9 @@ body {
   margin: 0;
   color: white;
   text-align: center;
-  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 nav {
