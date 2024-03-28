@@ -12,11 +12,11 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        contact: resolve(__dirname, 'contact/index.html'),
-        director: resolve(__dirname, 'director/index.html'),
-        editor: resolve(__dirname, 'editor/index.html'),
-        vfx: resolve(__dirname, 'vfx/index.html'),
+        main: resolve(__dirname, 'src/index.html'),
+        contact: resolve(__dirname, 'src/contact/index.html'),
+        director: resolve(__dirname, 'src/director/index.html'),
+        editor: resolve(__dirname, 'src/editor/index.html'),
+        vfx: resolve(__dirname, 'src/vfx/index.html'),
       },
     },
     outDir: '../dist', // Output in the dist/ folder
