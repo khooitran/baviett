@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
-export default {
+export default defineConfig({
   root: 'src/',
   publicDir: '../static/',
   base: './',
@@ -23,4 +23,4 @@ export default {
     emptyOutDir: true, // Empty the folder first
     sourcemap: true, // Add sourcemap
   },
-};
+});
