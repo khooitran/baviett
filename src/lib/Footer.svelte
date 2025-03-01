@@ -5,7 +5,7 @@
       alt="logo"
     />
     <div class="footer-info">
-      <p class="footer-item">baviet1312@gmail.com</p>
+      <a href="mailto:baviet1312@gmail.com">Email &rarr;</a>
       <a href="https://www.instagram.com/baviett/">Instagram &rarr;</a>
     </div>
   </div>
@@ -30,10 +30,6 @@
     text-align: right;
   }
 
-  .footer-item {
-    margin-left: 10px;
-  }
-
   img {
     height: 60px;
     margin-left: 16px;
@@ -41,6 +37,7 @@
 
   a {
     color: white;
+    display: block;
     text-decoration: none;
     transition-duration: 0.15s;
   }
