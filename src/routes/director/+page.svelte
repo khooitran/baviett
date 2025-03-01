@@ -3,9 +3,6 @@
 
   let videos = [
     {
-      src: 'https://www.youtube.com/embed/VkUWXGSLiyM?si=1VWFQmqTsbz5GFWQ',
-    },
-    {
       src: 'https://www.youtube.com/embed/98754rVyq1I?si=83xxmUzPdmbvvx_x',
     },
     {
@@ -57,6 +54,13 @@
 
 <section>
   <div>
+    <iframe
+      src="https://www.youtube.com/embed/VkUWXGSLiyM?si=1VWFQmqTsbz5GFWQ"
+      title="YouTube Media Player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
     {#each videos as video}
       <Video src={video.src} />
     {/each}
@@ -75,9 +79,29 @@
     gap: 10px;
   }
 
+  iframe {
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 576px) {
+    iframe {
+      width: 560px;
+      height: 315px;
+    }
+  }
+
   @media only screen and (min-width: 1200px) {
     div {
       grid-template-columns: auto auto;
+    }
+
+    iframe:nth-child(1) {
+      height: 630px;
+      width: 1120px;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
   }
 </style>

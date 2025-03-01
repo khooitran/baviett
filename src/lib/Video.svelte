@@ -23,13 +23,4 @@
       height: 315px;
     }
   }
-
-  @media only screen and (min-width: 1200px) {
-    iframe:nth-child(1) {
-      height: 630px;
-      width: 1120px;
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
-  }
 </style>

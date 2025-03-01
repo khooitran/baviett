@@ -1,6 +1,9 @@
 <footer>
   <div class="footer">
-    <img src="/logo.png" />
+    <img
+      src="/logo.png"
+      alt="logo"
+    />
     <div class="footer-info">
       <p class="footer-item">baviet1312@gmail.com</p>
       <a href="https://www.instagram.com/baviett/">Instagram &rarr;</a>
