@@ -1,10 +1,11 @@
 <script>
   import Video from '$lib/Video.svelte';
 
+  let highlight = {
+    src: 'https://www.youtube.com/embed/98754rVyq1I?si=83xxmUzPdmbvvx_x',
+  };
+
   let videos = [
-    {
-      src: 'https://www.youtube.com/embed/98754rVyq1I?si=83xxmUzPdmbvvx_x',
-    },
     {
       src: 'https://www.youtube.com/embed/z_ioKFEp3LE?si=0jNvZnFqZWywjVe9',
     },
@@ -55,7 +56,7 @@
 <section>
   <div>
     <iframe
-      src="https://www.youtube.com/embed/VkUWXGSLiyM?si=1VWFQmqTsbz5GFWQ"
+      src={highlight.src}
       title="YouTube Media Player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -99,7 +100,7 @@
 
     iframe:nth-child(1) {
       height: 630px;
-      width: 1120px;
+      width: 1130px;
       grid-column-start: 1;
       grid-column-end: 3;
     }
