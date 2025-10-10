@@ -1,5 +1,17 @@
 export const directorVideos = [
   {
+    src: 'https://www.youtube.com/embed/cI5b71ZBAn0?si=IArVrT_5H3CaGa0Y',
+  },
+  {
+    src: 'https://www.youtube.com/embed/3mvIhUZt8hE?si=a43FnwHKNcdrSqoz',
+  },
+  {
+    src: 'https://www.youtube.com/embed/dbA4DK0F_v4?si=pEuFEosA-ZlYx_yj',
+  },
+  {
+    src: 'https://www.youtube.com/embed/VkUWXGSLiyM?si=ekEDxPXZHaLm08dR',
+  },
+  {
     src: 'https://www.youtube.com/embed/98754rVyq1I?si=83xxmUzPdmbvvx_x',
   },
   {
