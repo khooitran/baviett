@@ -6,6 +6,9 @@ export const directorVideos = [
     src: 'https://www.youtube.com/embed/3mvIhUZt8hE?si=a43FnwHKNcdrSqoz',
   },
   {
+    src: 'https://www.youtube.com/embed/hYU4b-UnCQA?si=t-0eFhJ71OzVuiWT',
+  },
+  {
     src: 'https://www.youtube.com/embed/dbA4DK0F_v4?si=pEuFEosA-ZlYx_yj',
   },
   {
