@@ -1,7 +1,7 @@
 <script>
-  import SeeMore from '$lib/SeeMore.svelte';
-  import Video from '$lib/Video.svelte';
-  import { directorVideos, editorVideos, vfxVideos } from '$lib/videos.js';
+  import SeeMore from "$lib/SeeMore.svelte";
+  import Video from "$lib/Video.svelte";
+  import { directorVideos, editorVideos, vfxVideos } from "$lib/videos.js";
 </script>
 
 <h1>Hello I'm baviett!</h1>
@@ -9,7 +9,7 @@
 <section>
   <h2>DIRECTOR</h2>
   <div>
-    {#each { length: 3 }, i}
+    {#each { length: 7 }, i}
       <Video src={directorVideos[i].src} />
     {/each}
     <SeeMore href="/director/" />
